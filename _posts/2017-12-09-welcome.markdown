@@ -1,8 +1,0 @@
----
-layout: post
-title:  Welcome to Oceluna blog!
-date:   2017-12-09 18:40:16
-description: First post
----
-
-Welcome to Cristina's blog! Here I'll be posting updates about my new content!
