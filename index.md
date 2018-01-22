@@ -5,43 +5,31 @@ layout: page
 ---
 
 {% for project in site.portfolio %}
+{% assign mod = forloop.index | modulo: 3 %}
+    
+{% if mod  == 1 %}
+<div class="section group">
+{% endif %}
 
-{% if project.redirect %}
-<div class="project">
-    <div class="thumbnail">
-        <a href="{{ project.redirect }}" target="_blank">
-        {% if project.img %}
-        <img class="thumbnail" src="{{ project.img }}"/>
-        {% else %}
-        <div class="thumbnail blankbox"></div>
-        {% endif %}    
-        <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
-        </span>
-        </a>
-    </div>
+        <div class="col span_1_of_3">
+	  <div class="container">
+            <a class="img__img" href="{{ site.baseurl }}{{ project.url }}">	
+            <img class="image" src="{{ project.img }}">
+	    <div class="overlay">
+	      <div class="text">
+		{{ project.title }}
+		<br/>
+		<div class="text_smaller">
+		  {{ project.description }}
+		</div>
+	      </div>
+	    </div>
+	    </a>
+	  </div>
+	</div>
+
+{% if mod == 0 %}
 </div>
-{% else %}
-
-<div class="project ">
-    <div class="thumbnail">
-        <a href="{{ site.baseurl }}{{ project.url }}">
-        {% if project.img %}
-        <img class="thumbnail" src="{{ project.img }}"/>
-        {% else %}
-        <div class="thumbnail blankbox"></div>
-        {% endif %}    
-        <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
-        </span>
-        </a>
-    </div>
-</div>
-
 {% endif %}
 
 {% endfor %}

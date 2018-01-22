@@ -183,8 +183,6 @@ font-size: 16px;
 /** 
  * Portfolio grid **********************************************************
 */
-// Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
 content: " ";
@@ -202,7 +200,7 @@ box-sizing: border-box;
 padding: 10px;
 }
 .thumbnail{
-width: 100%;
+width: auto;
 height: 230px;
 overflow: hidden;
 }
@@ -247,6 +245,22 @@ overflow: hidden;
 box-sizing:border-box;
 padding: $img_spacing;
 }
+.img_row_3_4{
+@media (min-width: $on-laptop) {
+	 height:  66%;
+	 width: $img_width;
+	 overflow: hidden;
+	 box-sizing:border-box;
+	 padding: $img_spacing;
+       }
+@media (max-width: $pre-laptop) {
+	 height:  66%;
+	 width: $img_width;
+	 overflow: hidden;
+	 box-sizing:border-box;
+	 padding: $img_spacing;
+     }
+}
 .col{ 
 width: 100%;
 height: 100%;
@@ -273,4 +287,205 @@ color: $caption_color;
 text-align: center;
 vertical-align: middle;
 font-size: $caption_font_size;
+}
+
+/**
+ * colport  **********************************************************
+ */
+/*  SECTIONS  */
+.section {
+ clear: both;
+ padding: 0px;
+ margin: 0px;
+}
+
+.img_full {
+    max-width: 100%;
+    max-height: 100%;
+    heigh: 400px;
+    width: 250px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+  content:"";
+  display:table;
+}
+
+.group:after {
+ clear:both;
+}
+
+.group {
+ zoom:1; /* For IE 6/7 */
+}
+
+/*  GRID OF THREE  */
+.span_3_of_3 {
+  width: 100%;
+}
+.span_2_of_3 {
+  width: 66.1%;
+}
+.span_1_of_3 {
+  width: 32.2%;
+}
+
+.span_12_of_12 {
+    width: 100%;
+}
+
+.span_11_of_12 {
+    width: 91.53%;
+}
+
+.span_10_of_12 {
+    width: 83.06%;
+}
+
+.span_9_of_12 {
+    width: 74.6%;
+}
+
+.span_8_of_12 {
+    width: 66.13%;
+}
+
+.span_7_of_12 {
+    width: 57.66%;
+}
+
+.span_6_of_12 {
+    width: 49.2%;
+}
+
+.span_5_of_12 {
+    width: 40.73%;
+}
+
+.span_4_of_12 {
+    width: 32.26%;
+}
+
+.span_3_of_12 {
+    width: 23.8%;
+}
+
+.span_2_of_12 {
+    width: 15.33%;
+}
+
+.span_1_of_12 {
+    width: 6.86%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.image_enlarge {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.image_enlarge:hover  {
+    transform: scale(1.2)
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform:scale(0);
+    transform:scale(0);
+    transition: .3s ease;
+}
+
+.container:hover .overlay {
+    transform: scale(1)
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;    
+}
+
+.text_smaller {
+    color: white;
+    font-size: 10px;
+    position: relative;
+    text-align: bottom;    
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+ .col { margin: 1% 0 1% 0%;}
+ .span_3_of_3, .span_2_of_3, .span_1_of_3, .img__wrap { width: 100%; }
+ .span_12_of_12 {
+     width: 100%;
+ }
+ .span_11_of_12 {
+     width: 100%;
+ }
+ .span_10_of_12 {
+     width: 100%;
+ }
+ .span_9_of_12 {
+     width: 100%;
+ }
+ .span_8_of_12 {
+     width: 100%;
+ }
+ .span_7_of_12 {
+     width: 100%;
+ }
+ .span_6_of_12 {
+     width: 100%;
+ }
+ .span_5_of_12 {
+     width: 100%;
+ }
+ .span_4_of_12 {
+     width: 100%;
+ }
+ .span_3_of_12 {
+     width: 100%;
+ }
+ .span_2_of_12 {
+     width: 100%;
+ }
+ .span_1_of_12 {
+     width: 100%;
+ }
 }
