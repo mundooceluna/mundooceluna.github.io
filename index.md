@@ -13,8 +13,11 @@ layout: page
 
         <div class="col span_1_of_3">
 	  <div class="container">
-            <a class="img__img" href="{{ site.baseurl }}{{ project.url }}">	
-            <img class="image" src="{{ project.img }}">
+            <a class="img__img" href="{{ site.baseurl }}{{ project.url }}">
+              <img class="image" src="{{ project.img }}">
+	      <div class="text_underline">
+	    	<center>{{ project.title }}</center>
+ 	      </div>
 	    <div class="overlay">
 	      <div class="text">
 		{{ project.title }}

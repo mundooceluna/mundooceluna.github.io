@@ -17,10 +17,10 @@ Diseños inspirados para una posible aplicación digital de aprendizaje infantil
 </div>
 <div class="section group">
         <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/3D_infantil/proyecto3.jpg" alt=""/>
+	  <img class="image_enlarge" src="{{ site.baseurl }}/img/3D_infantil/pippe.jpg" alt=""/>
 	</div>
         <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/3D_infantil/pippe.jpg" alt=""/>
+	  <img class="image_enlarge" src="{{ site.baseurl }}/img/3D_infantil/proyecto3.jpg" alt=""/>
 	</div>
 </div>
 

@@ -394,10 +394,27 @@ font-size: $caption_font_size;
     width: 100%;
 }
 
+.md_box {
+    position: relative;
+    width: auto;
+}
+.md_box:before {
+    content: "";
+    display: block;
+    padding-top: 75%;
+}
+.md_content{
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
 .image {
     display: block;
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 150px;
 }
 
 .image_enlarge {
@@ -444,6 +461,13 @@ font-size: $caption_font_size;
     font-size: 10px;
     position: relative;
     text-align: bottom;    
+}
+
+.text_smaller {
+    color: red;
+    font-size: 10px;
+    position: relative;
+    text-align: top;    
 }
 
 
