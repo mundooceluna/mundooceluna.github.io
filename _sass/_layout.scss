@@ -44,7 +44,21 @@ line-height: $base-line-height;
 &:not(:first-child) {
 margin-left: 10px;
         }
-    }
+&:last-child {
+margin-right: 30px;
+        }
+}
+.page-link-bold{
+line-height: $base-line-height;
+font-weight: bold;    
+        // Gaps between nav items, but not on the first one
+&:not(:first-child) {
+margin-left: 10px;
+        }
+&:last-child {
+margin-right: 30px;
+        }
+}
 @include media-query($on-palm) {
 position: fixed;
 top: 0px;
@@ -55,6 +69,9 @@ display: block;
 padding-bottom: 5px;
         }
 .page-link {
+display: line;
+        }
+.page-link-bold {
 display: line;
         }
     }

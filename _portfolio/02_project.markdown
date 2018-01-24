@@ -3,7 +3,7 @@ layout: colport
 title: TIENDA
 color_blue: yes
 description: Mi tienda
-img: /img/tienda/tienda_online.jpg
+img: /img/tienda/tienda_online.png
 ---
 
 ¡En construccion! Pulsa en contacto para
