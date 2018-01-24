@@ -1,7 +1,10 @@
 <header class="site-header">
-  <div class="wrapper">
-    <nav class="site-nav">
-
+  <div class="site-nav-bose">
+    <nav class="site-nav-base">
+      <a href="{{ site.baseurl }}/">
+	<img class="image-nav" src="{{ site.baseurl }}/img/cabecera_web_proporcionada.jpg">
+      </a>
+      <div class="site-nav">
       <div class="trigger">
         <!-- {{ site.title }} instead of blog -->
         <a class="page-link" href="{{ site.baseurl }}/">portfolio</a>
@@ -12,6 +15,7 @@
           {% endif %}
         {% endfor %}
 
+      </div>
       </div>
     </nav>
 

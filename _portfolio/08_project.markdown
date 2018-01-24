@@ -1,21 +1,25 @@
 ---
 layout: colport
-title: CD
-description: Diseño de portada y galleta 
-img: /img/CD/portada.jpg
+title: Editiorial
+description: Series de ilustraciones para el mundo editorial
+img: /img/editorial/portada.jpg
 ---
 
-Diseño de portada y galleta de un posible CD recopilatorio de Pasión Vega a partir de imágenes suyas que he encontrado por internet. Es un pequeño homenaje hacia ella.
+Estas son algunas ilustraciones basadas en el campo editorial, uno de mis favoritos.
 
 <div class="section group">
-        <div class="col span_12_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/CD/portada.jpg" alt=""/>
+        <div class="col span_6_of_12">
+	  <img class="image_enlarge" src="{{ site.baseurl }}/img/editorial/bella_durmiente.jpg" alt=""/>
+	</div>
+	<div class="col span_6_of_12">	
+	  <img class="image_enlarge" src="{{ site.baseurl }}/img/editorial/los_pajaros.jpg" alt=""/>
 	</div>
 </div>
 <div class="section group">
-        <div class="col span_3_of_12">
+	<div class="col span_3_of_12">
 	</div>
-        <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/CD/galleta.jpg" alt=""/>
+	<div class="col span_6_of_12">	
+	  <img class="image_enlarge" src="{{ site.baseurl }}/img/editorial/lagrimas_monstruo.jpg" alt=""/>
 	</div>
 </div>
+

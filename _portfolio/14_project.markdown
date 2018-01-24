@@ -1,30 +1,15 @@
 ---
 layout: colport
-title: Infantil
-description: Ilustraciones para niños
-img: /img/infantil/nino_arbol.jpg
+title: Grabado
+description: Diseño de la imagen corporativa de mi propia marca
+img: /img/grabado/portada.jpg
 ---
 
-Engrendecer los sueños de los niños a través de las ilustraciones es una de las cosas más bellas que podemos hacer por la infancia.
+Diseño de la imagen corporativa de mi propia marca
+
 
 <div class="section group">
-        <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/infantil/nino_arbol.jpg" alt=""/>
+        <div class="col span_12_of_12">
+	  <img class="image_enlarge" src="{{ site.baseurl }}/img/grabado/merlu.jpg" alt=""/>
 	</div>
-        <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/infantil/rey.jpg" alt=""/>
-	</div>
-</div>
-<div class="section group">
-  <div class="col span_6_of_12">
-    <div class="col span_12_of_12">
-      <img class="image_enlarge" src="{{ site.baseurl }}/img/infantil/mercadillo.jpg" alt=""/>	
-    </div>
-    <div class="col span_12_of_12">
-      <img class="image_enlarge" src="{{ site.baseurl }}/img/infantil/conejo_tejo.jpg" alt=""/>
-    </div>
-  </div>
-  <div class="col span_6_of_12">
-	<img class="image_enlarge" src="{{ site.baseurl }}/img/infantil/arrozales.jpg" alt=""/>
-  </div>
 </div>

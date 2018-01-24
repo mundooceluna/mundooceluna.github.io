@@ -1,25 +1,17 @@
 ---
 layout: colport
-title: Editiorial
-description: Series de ilustraciones para el mundo editorial
-img: /img/editorial/bella_durmiente.jpg
+title: TIENDA
+color_blue: yes
+description: Mi tienda
+img: /img/tienda/tienda_online.jpg
 ---
 
-Estas son algunas ilustraciones basadas en el campo editorial, uno de mis favoritos.
+¡En construccion! Pulsa en contacto para
 
 <div class="section group">
-        <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/editorial/bella_durmiente.jpg" alt=""/>
-	</div>
-	<div class="col span_6_of_12">	
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/editorial/los_pajaros.jpg" alt=""/>
+        <div class="col span_12_of_12">
+	  <img class="image_enlarge" src="{{ site.baseurl }}/img/tienda/tienda_online.jpg" alt=""/>
 	</div>
 </div>
-<div class="section group">
-	<div class="col span_3_of_12">
-	</div>
-	<div class="col span_6_of_12">	
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/editorial/lagrimas_monstruo.jpg" alt=""/>
-	</div>
-</div>
+
 

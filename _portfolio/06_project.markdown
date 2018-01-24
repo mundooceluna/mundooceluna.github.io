@@ -1,26 +1,18 @@
 ---
 layout: colport
-title: 3D Infantil 
-description: Proyecto de app infantil
-img: /img/3D_infantil/proyecto1.jpg
+title: Prelectores
+description: Serie de ilustraciones para prelectores
+img: /img/prelectores/portada.jpg
 ---
 
-Diseños inspirados para una posible aplicación digital de aprendizaje infantil, realizada mediante software 3D.
+Serie de imágenes para prelectores
 
 <div class="section group">
         <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/3D_infantil/proyecto1.jpg" alt=""/>
+	  <img class="image_enlarge" src="{{ site.baseurl }}/img/prelectores/numeros.jpg" alt=""/>
 	</div>
         <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/3D_infantil/proyecto2.jpg" alt=""/>
-	</div>
-</div>
-<div class="section group">
-        <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/3D_infantil/pippe.jpg" alt=""/>
-	</div>
-        <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/3D_infantil/proyecto3.jpg" alt=""/>
+	  <img class="image_enlarge" src="{{ site.baseurl }}/img/prelectores/tejo.jpg" alt=""/>
 	</div>
 </div>
 

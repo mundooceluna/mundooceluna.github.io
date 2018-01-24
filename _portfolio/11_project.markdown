@@ -1,27 +1,14 @@
 ---
 layout: colport
-title: Imagen Corporativa
-description: Diseño de la imagen corporativa de mi propia marca
-img: /img/corporativa/tarjetas.jpg
+title: Collage Infantil
+description: Ilustraciones para niños realizadas mediante técnica de collage
+img: /img/collage_infantil/portada.jpg
 ---
 
-Diseño de la imagen corporativa de mi propia marca
-
+Ilustraciones para niños realizadas mediante técnica de collage
 
 <div class="section group">
-        <div class="col span_3_of_12">
-	</div>
-        <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/corporativa/tarjetas.jpg" alt=""/>
-	</div>
-</div>
-<div class="section group">
-	<div class="col span_2_of_12">
-	</div>
-	<div class="col span_4_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/serigrafia/camiseta_negra.jpg" alt=""/>
-	</div>
-        <div class="col span_4_of_12">
-          <img class="image_enlarge" src="{{ site.baseurl }}/img/serigrafia/bolso.jpg" alt=""/>
+        <div class="col span_12_of_12">
+	  <img class="image_enlarge" src="{{ site.baseurl }}/img/collage_infantil/musicos_bremen.jpg" alt=""/>
 	</div>
 </div>

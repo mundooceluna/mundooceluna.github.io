@@ -2,7 +2,7 @@
 layout: colport
 title: Personajes
 description: Diseño de algunos personajes infantiles
-img: /img/personajes/renny.jpg
+img: /img/personajes/portada.jpg
 ---
 
 Diseño de algunos personajes infantiles

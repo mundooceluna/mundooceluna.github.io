@@ -1,45 +1,18 @@
 ---
 layout: colport
-title: Patterns
-description: Patterns para su uso comercial
-img: /img/patterns/cojines.jpg
+title: Libro de texto
+description: Series de ilustraciones para la didactica infantil
+img: /img/libros_texto/portada.jpg
 ---
 
-Me encanta crear patrones que se puedan ver reflejados en múltiples superficies y formatos.
+Serie de imágenes pertenecientes al campo de la ilustración didáctica infantil.
 
 <div class="section group">
         <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/patterns/camisetas_infantil.jpg" alt=""/>
+	  <img class="image_enlarge" src="{{ site.baseurl }}/img/libros_texto/peligro.jpg" alt=""/>
 	</div>
         <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/patterns/cocina.jpg" alt=""/>
-	</div>
-</div>
-<div class="section group">
-        <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/patterns/cojines.jpg" alt=""/>
-	</div>
-        <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/patterns/colchas.jpg" alt=""/>
-	</div>
-</div>
-<div class="section group">
-        <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/patterns/geometrico.jpg" alt=""/>
-	</div>
-        <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/patterns/mariquitas.jpg" alt=""/>
-	</div>
-</div>
-<div class="section group">
-        <div class="col span_4_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/patterns/perchas.jpg" alt=""/>
-	</div>
-        <div class="col span_4_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/patterns/renos.jpg" alt=""/>
-	</div>
-	<div class="col span_4_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/patterns/varios.jpg" alt=""/>
+	  <img class="image_enlarge" src="{{ site.baseurl }}/img/libros_texto/objetos_cole.jpg" alt=""/>
 	</div>
 </div>
 

@@ -1,8 +1,8 @@
 ---
 layout: colport
-title: Cómic
+title: Imagen Corporativa
 description: Diseño de la imagen corporativa de mi propia marca
-img: /img/corporativa/tarjetas.jpg
+img: /img/corporativa/portada.jpg
 ---
 
 Diseño de la imagen corporativa de mi propia marca

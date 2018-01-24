@@ -1,18 +1,30 @@
 ---
 layout: colport
-title: Libro de texto
-description: Series de ilustraciones para la didactica infantil
-img: /img/libros_texto/peligro.jpg
+title: Infantil
+description: Ilustraciones para niños
+img: /img/infantil/portada.jpg
 ---
 
-Serie de imágenes pertenecientes al campo de la ilustración didáctica infantil.
+Engrendecer los sueños de los niños a través de las ilustraciones es una de las cosas más bellas que podemos hacer por la infancia.
 
 <div class="section group">
         <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/libros_texto/peligro.jpg" alt=""/>
+	  <img class="image_enlarge" src="{{ site.baseurl }}/img/infantil/nino_arbol.jpg" alt=""/>
 	</div>
         <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/libros_texto/objetos_cole.jpg" alt=""/>
+	  <img class="image_enlarge" src="{{ site.baseurl }}/img/infantil/rey.jpg" alt=""/>
 	</div>
 </div>
-
+<div class="section group">
+  <div class="col span_6_of_12">
+    <div class="col span_12_of_12">
+      <img class="image_enlarge" src="{{ site.baseurl }}/img/infantil/mercadillo.jpg" alt=""/>	
+    </div>
+    <div class="col span_12_of_12">
+      <img class="image_enlarge" src="{{ site.baseurl }}/img/infantil/conejo_tejo.jpg" alt=""/>
+    </div>
+  </div>
+  <div class="col span_6_of_12">
+	<img class="image_enlarge" src="{{ site.baseurl }}/img/infantil/arrozales.jpg" alt=""/>
+  </div>
+</div>

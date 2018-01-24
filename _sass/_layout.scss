@@ -24,9 +24,20 @@ text-decoration: none;
 color: $theme-color;
     }
 }
+.site-nav-base {
+.image-nav {
+float: left;
+height: 60px;
+width: 300px;
+@include media-query($on-palm) {
+height: 0px;
+width: 0px;
+}
+}
 .site-nav {
-float: right;
+font-family: "Calibri", "Arial Narrow", "Arial", san-serif;		
 line-height: $nav-height;
+float: right;
 .page-link{
 line-height: $base-line-height;
         // Gaps between nav items, but not on the first one
@@ -47,6 +58,7 @@ padding-bottom: 5px;
 display: line;
         }
     }
+}
 }
 
 .header-bar{
@@ -132,7 +144,7 @@ text-align: center;
 margin-bottom: $vertical-spacing-unit;
 }
 .post-title {
-font-size: 42px;
+font-size: 40px;
 letter-spacing: -1px;
 line-height: 1;
 @include media-query($on-laptop) {
@@ -341,6 +353,11 @@ font-size: $caption_font_size;
   width: 32.2%;
 }
 
+.span_1_of_3_center {
+  width: 32.2%;
+}
+
+
 .span_12_of_12 {
     width: 100%;
 }
@@ -417,6 +434,14 @@ font-size: $caption_font_size;
     height: 150px;
 }
 
+.logo {
+    float: left;
+    width: 225px;
+    height: 45px;
+    z-height: 999;
+}
+
+
 .image_enlarge {
     display: block;
     width: 100%;
@@ -456,6 +481,10 @@ font-size: $caption_font_size;
     text-align: center;    
 }
 
+.text_underline {
+    color: purple;
+}
+
 .text_smaller {
     color: white;
     font-size: 10px;
@@ -476,6 +505,7 @@ font-size: $caption_font_size;
 @media only screen and (max-width: 480px) {
  .col { margin: 1% 0 1% 0%;}
  .span_3_of_3, .span_2_of_3, .span_1_of_3, .img__wrap { width: 100%; }
+ .span_1_of_3_center { width: 100%; align: center; }
  .span_12_of_12 {
      width: 100%;
  }

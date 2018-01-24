@@ -15,18 +15,18 @@ layout: page
 	  <div class="container">
             <a class="img__img" href="{{ site.baseurl }}{{ project.url }}">
               <img class="image" src="{{ project.img }}">
-	      <div class="text_underline">
-	    	<center>{{ project.title }}</center>
- 	      </div>
-	    <div class="overlay">
-	      <div class="text">
-		{{ project.title }}
-		<br/>
-		<div class="text_smaller">
-		  {{ project.description }}
+	        <div class="text_underline">
+	    	  <center>{{ project.title }}</center>
+ 		</div>
+		<div class="overlay">
+		  <div class="text">
+		    {{ project.title }}
+		    <br/>
+		    <div class="text_smaller">
+		      {{ project.description }}
+		    </div>
+		  </div>
 		</div>
-	      </div>
-	    </div>
 	    </a>
 	  </div>
 	</div>
