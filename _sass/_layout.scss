@@ -26,11 +26,14 @@ color:			$theme-color;
 }
 .site-nav {
     font-family: "Calibri", "Arial Narrow", "Arial", san-serif;		
-    line-height: $nav-height;
+    line-height: $base-line-height;
     white-space: nowrap;
-    
+    background: rgb(230,222,211);
+    @include media-query($on-palm) {
+	background: none;
+    }
     .image-nav {
-	display:        inline;
+	display:        inline;	
 	align:          top;
 	margin-left:    auto;
 	margin-right:   auto;
@@ -47,6 +50,8 @@ color:			$theme-color;
 	white-space: nowrap;
 	position: absolute;
 	right: 10px;
+	vertica-align: middle;
+	top: 20px;
     }
     .page-link{
 	line-height: $base-line-height;   

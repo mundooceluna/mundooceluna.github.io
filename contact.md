@@ -10,6 +10,7 @@ Puedes contactar conmigo a través de mail o whatsapp, Estaré encantada de aten
 
 Telefono: +34 644076117<br/>
 correo: <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">cristinavillarfernandez@oceluna.com</a><br/>
+o bien, en: <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">info@oceluna.com</a><br/>
 <a href="https://www.facebook.com/mundo.oceluna/">¡Sígueme en Facebook!</a>
 
 <br/>
