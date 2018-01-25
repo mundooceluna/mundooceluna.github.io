@@ -1,11 +1,11 @@
 ---
 layout: colport
 title: Ilustración didáctica
-description: Ilustraciones diseñada para libro de texto.
+description: Ilustraciones diseñadas para libro de texto
 img: /img/libros_texto/portada.jpg
 ---
 
-Serie de imágenes pertenecientes al campo de la ilustración didáctica infantil.
+Serie de imágenes pertenecientes al campo de la ilustración didáctica infantil, pensadas especialmente para libro de texto.
 
 <div class="section group">
         <div class="col span_6_of_12">
@@ -42,8 +42,8 @@ Serie de imágenes pertenecientes al campo de la ilustración didáctica infanti
 
 
 <div class="section group">
-        <div class="col span_3_of_12"></div>
-        <div class="col span_6_of_12">
+        <div class="col span_2_of_12"></div>
+        <div class="col span_8_of_12">
 	  <img class="image_enlarge" src="{{ site.baseurl }}/img/libros_texto/parque_web.jpg" alt=""/>
 	</div>
 </div>

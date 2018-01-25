@@ -1,7 +1,7 @@
 ---
 layout: colport
-title: Serigrafia
-description: Fotos de camisetas y bolsos
+title: Serigrafía
+description: Ilustración mediante técnica de serigrafía
 img: /img/serigrafia/portada.jpg
 ---
 

@@ -5,7 +5,7 @@ description: Serie de ilustraciones para prelectores
 img: /img/prelectores/portada.jpg
 ---
 
-Serie de imágenes para prelectores
+Ilustraciones para prelectores; la primera está pensada para colorear, y la segunda, es una prueba para un proyecto personal orientado a este primer contacto con los libros
 
 <div class="section group">
         <div class="col span_6_of_12">

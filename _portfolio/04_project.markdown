@@ -17,10 +17,10 @@ Diseño de algunos personajes infantiles
 </div>
 <div class="section group">
         <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/personajes/proyecto3.jpg" alt=""/>
+	  <img class="image_enlarge" src="{{ site.baseurl }}/img/personajes/pippe.jpg" alt=""/>
 	</div>
         <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/personajes/pippe.jpg" alt=""/>
+	  <img class="image_enlarge" src="{{ site.baseurl }}/img/personajes/proyecto3.jpg" alt=""/>
 	</div>
 </div>
 

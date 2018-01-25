@@ -9,7 +9,7 @@ Engrendecer los sueños de los niños a través de las ilustraciones es una de l
 
 <div class="section group">
         <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/infantil/nino_arbol.jpg" alt=""/>
+	  <img class="image_enlarge" src="{{ site.baseurl }}/img/infantil/nino_arbol.jpg" alt="" style="width: 97.5%;"/>
 	</div>
         <div class="col span_6_of_12">
 	  <img class="image_enlarge" src="{{ site.baseurl }}/img/infantil/rey.jpg" alt=""/>
