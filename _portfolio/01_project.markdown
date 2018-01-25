@@ -1,7 +1,7 @@
 ---
 layout: colport
 title: Ensoñaciones
-description: Series de imágenes sobre el mundo onírico
+description: Ilustraciones inspiradas en el mundo onírico
 img: /img/ensonaciones/portada.jpg
 ---
 

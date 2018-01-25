@@ -26,7 +26,7 @@ color: $theme-color;
 }
 .site-nav-base {
 .image-nav {
-float: left;
+    float: left;	
 height: 60px;
 width: 300px;
 @include media-query($on-palm) {
@@ -118,7 +118,7 @@ width:100%;
  * Pagination   **********************************************************
  */
 .pagination{
-max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
+max-width: -webkit-calc(1200px - (#{$horizontal-spacing-unit} * 2));
 text-align: center;
 width: 100%;
 position: fixed;
@@ -182,7 +182,7 @@ font-size: 22px;
         }
     }
 h4 {
-font-size: 20px;
+font-size: 24px;
 @include media-query($on-laptop) {
 font-size: 18px;
         }
@@ -449,6 +449,27 @@ font-size: $caption_font_size;
     display: block;
     width: 200px;
     height: 150px;
+    @media only screen and (max-width: $pre-palm) and (min-width: $after-one-column) {
+       width: 100px;
+       height: 75px;
+    }
+    @media only screen and (max-width: $pre-laptop) and (min-width: $on-palm) {
+       width: 175px;
+       height: 131.25px;
+    }
+    @media only screen and (max-width: $pre-on-large-pc) and (min-width: $on-laptop) {
+       width: 250px;
+       height: 187.5px;
+    }
+    @media only screen and (max-width: $pre-on-very-large-pc) and (min-width: $on-large-pc) {
+       width: 300px;
+       height: 225px;
+    }
+    @media only screen and (min-width: $on-very-large-pc) {
+       width: 350px;
+       height: 262.5px;
+    }
+
 }
 
 .logo {
@@ -499,27 +520,30 @@ font-size: $caption_font_size;
 }
 
 .text_underline {
-    color: purple;
+    font-weight: bold;
+    color: rgb(76, 133, 141);
 }
 
-.text_smaller {
-    color: white;
-    font-size: 10px;
-    position: relative;
-    text-align: bottom;    
+.text_underline_tienda {
+    font-weight: bold;
+    color: rgb( 141, 67, 82);
 }
 
+
 .text_smaller {
-    color: red;
-    font-size: 10px;
+    color: rgb( 141, 67, 82);
+    font-size: 14px;
     position: relative;
-    text-align: top;    
+    text-align: bottom;
+    line-height: 10px;
+    background: white;
+    opacity: 0.8;
 }
 
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: $min-one-column) {
  .col { margin: 1% 0 1% 0%;}
  .span_3_of_3, .span_2_of_3, .span_1_of_3, .img__wrap { width: 100%; }
  .span_1_of_3_center { width: 100%; align: center; }

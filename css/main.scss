@@ -21,10 +21,16 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$min-one-column:   480px;
+$after-one-column: 481px;
+$pre-palm:         599px;
 $on-palm:          600px;
 $on-laptop:        800px;
 $pre-laptop:       799px;
-
+$pre-on-large-pc:  999px;
+$on-large-pc:      1000px;
+$pre-on-very-large-pc: 1199px;
+$on-very-large-pc: 1200px;
 
 // Using media queries with like this:
 // @include media-query($palm) {

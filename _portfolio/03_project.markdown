@@ -1,7 +1,7 @@
 ---
 layout: colport
 title: Infantil
-description: Ilustraciones para niños
+description: Un mundo para niños
 img: /img/infantil/portada.jpg
 ---
 
@@ -20,11 +20,9 @@ Engrendecer los sueños de los niños a través de las ilustraciones es una de l
     <div class="col span_12_of_12">
       <img class="image_enlarge" src="{{ site.baseurl }}/img/infantil/mercadillo.jpg" alt=""/>	
     </div>
-    <div class="col span_12_of_12">
-      <img class="image_enlarge" src="{{ site.baseurl }}/img/infantil/conejo_tejo.jpg" alt=""/>
-    </div>
   </div>
-  <div class="col span_6_of_12">
+  <div class="col span_1_of_12"></div>
+  <div class="col span_4_of_12">
 	<img class="image_enlarge" src="{{ site.baseurl }}/img/infantil/arrozales.jpg" alt=""/>
   </div>
 </div>

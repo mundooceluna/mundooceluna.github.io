@@ -1,7 +1,7 @@
 ---
 layout: page
 title: contact
-permalink: /about/
+permalink: /contact/
 bold_title: yes
 ---
 
