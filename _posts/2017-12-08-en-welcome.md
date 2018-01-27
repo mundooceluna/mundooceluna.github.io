@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  ¡Bienvenido al blog de Oceluna!
+title:  Welcome to Oceluna blog!
 date:   2017-12-08 18:40:16
-description: Sitio en construcción
+description: This site is under construction
 published: true
-lang: es
+lang: en
 href: bienvenida
 ---
 
-Bievenida al blog de Cristina. Sitio en construcción
+Welcome to Cristina's blog! This is under construction
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Wikidata_logo_under_construction_sign_diamond.svg" width="200">

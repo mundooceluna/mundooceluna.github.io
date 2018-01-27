@@ -2,6 +2,7 @@
 layout: page
 title: about
 permalink: /about/
+lang: es
 ---
 
 Me encanta la ilustración, la literatura, las manualidades (craft) y los juegos de mesa, y estoy encantada de poder trabajar en proyectos relacionados con cualquiera de estos campos, o mejor aún, poder combinarlos para intentar ofrecer resultados únicos y personalizados para cada persona o proyecto.

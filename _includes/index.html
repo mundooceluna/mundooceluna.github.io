@@ -1,0 +1,44 @@
+{% assign index = 1 %}
+{% for project in site.portfolio %}
+{% assign mod = index | modulo: 3 %}
+
+{% if project.lang == page.lang %}
+
+{% if mod  == 1 %}
+<div class="section group">
+{% endif %}
+
+        <div class="col span_1_of_3">
+	  <div class="container">
+            <a class="img__img" href="{{ site.baseurl }}{{ project.url }}">
+	    <center>
+	      <img class="image" src="{{ project.img }}">
+	      {% if  project.ref != "tienda" %}
+	      <div class="text_underline">
+		{% else %}
+              <div class="text_underline_tienda">
+		{% endif %}
+	    	{{ project.title }}
+ 	      </div>
+	      </center>
+	      {% if  project.ref != "tienda" %}
+	      <div class="overlay">
+		<div class="text">
+		  {{ project.title }}
+		  <br/>
+		  <div class="text_smaller">
+		    {{ project.description }}
+		  </div>
+		</div>
+	      </div>
+	      {% endif %}
+	    </a>
+	  </div>
+	</div>
+{% if mod == 0 %}
+</div>
+{% endif %}
+{% assign index = index | plus: 1 %}
+{% endif %}
+
+{% endfor %}

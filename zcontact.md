@@ -3,6 +3,7 @@ layout: page
 title: contact
 permalink: /contact/
 bold_title: yes
+lang: es
 ---
 
 <!--img class="col one right" src="/img/prof_pic.jpg"-->
