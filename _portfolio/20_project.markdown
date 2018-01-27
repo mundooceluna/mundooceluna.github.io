@@ -3,6 +3,8 @@ layout: colport
 title: Varios
 description: Cajón de sastre
 img: /img/varios/portada.jpg
+lang: es
+ref: 020
 ---
 
 Cajón de sastre

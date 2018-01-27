@@ -1,12 +1,15 @@
 ---
 layout: page
+lang: es
+ref: index
 ----title: portfolio
 ----[permalink: /portfolio/
 ---
 
 {% for project in site.portfolio %}
 {% assign mod = forloop.index | modulo: 3 %}
-    
+
+{% if project.lang == page.lang %}
 {% if mod  == 1 %}
 <div class="section group">
 {% endif %}
@@ -40,6 +43,7 @@ layout: page
 	</div>
 {% if mod == 0 %}
 </div>
+{% endif %}
 {% endif %}
 
 {% endfor %}

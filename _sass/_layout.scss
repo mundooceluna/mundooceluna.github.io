@@ -50,7 +50,7 @@ color:			$theme-color;
 	white-space: nowrap;
 	position: absolute;
 	right: 10px;
-	vertica-align: middle;
+	vertical-align: middle;
 	top: 20px;
     }
     .page-link{
@@ -691,4 +691,12 @@ font-size: $caption_font_size;
      width:		100%;
  }
 
+}
+
+.flag {
+  position: relative;
+  vertical-align: middle;
+  width: 55px;
+  height: auto;
+  top: -3px;
 }
