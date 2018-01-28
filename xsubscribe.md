@@ -11,7 +11,7 @@ Introduce tu email si quieres seguir mi trabajo y mantenerte al día de los nuev
 
 <form class="wj-contact" action="https://formspree.io/{{site.subsemail}}" method="POST">
 <input type="text" name="email" placeholder="Tu email">
-<input type="hidden" name="_next" value="http://www.oceluna.com">
+<input type="hidden" name="_next" value="http://www.oceluna.com/gracias/">
 <input type="hidden" name="_subject" value="New Contact Form Submission">
 <input type="text" name="_gotcha" style="display:none">
 <input type="submit" value="Suscríbete">

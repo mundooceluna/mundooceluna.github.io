@@ -19,7 +19,7 @@
 
 
         {% for p in site.pages %}
-        {% if p.title %}
+        {% if p.title and p.hidden == nil %}
 	{% if p.lang == page.lang %}
 	{% if p.bold_title %}
         <a class="page-link-bold" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>

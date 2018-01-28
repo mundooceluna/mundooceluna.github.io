@@ -11,7 +11,7 @@ Enter your email if you want to be up to date with my work and with the new prod
 
 <form class="wj-contact" action="https://formspree.io/{{site.subsemail}}" method="POST">
 <input type="text" name="email" placeholder="Email Address">
-<input type="hidden" name="_next" value="http://www.oceluna.com">
+<input type="hidden" name="_next" value="http://www.oceluna.com/thanks/">
 <input type="hidden" name="_subject" value="New Contact Form Submission">
 <input type="text" name="_gotcha" style="display:none">
 <input type="submit" value="Subscribe">
