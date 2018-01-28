@@ -30,7 +30,7 @@
         {% endif %}
         {% endfor %}
 	{% for p in site.pages %}	
-	{% if p.title == page.title %}
+	{% if p.ref == page.ref %}
 	{% if p.lang == 'es' and page.lang == 'en' %}
 	<a class="" href="{{p.url}}"><img class="flag" src="{{ site.baseurl }}/img/spanish.jpg" style="margin-left: 10px;"/></a>
 	{% elsif p.lang == 'en' and page.lang == 'es' %}

@@ -1,9 +1,10 @@
 ---
 layout: page
-title: contact
+title: contacto
 permalink: /contact/
 bold_title: yes
 lang: es
+ref: contact
 ---
 
 <!--img class="col one right" src="/img/prof_pic.jpg"-->

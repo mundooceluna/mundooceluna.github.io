@@ -27,6 +27,8 @@ plugins:
 
 author: Cristina Villar Fernandez
 
+subsemail: subscribe@oceluna.com
+
 collections:
   portfolio:
     output: true

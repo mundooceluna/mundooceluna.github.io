@@ -3,6 +3,7 @@ layout: page
 title: about
 permalink: /about_en/
 lang: en
+ref: about
 ---
 I love illustration, writing, crafting and board games, and I'd love to be able to work in projects related to any of those fields, or even, better, be able to combine tem to offer unique results that are customized for the specific needs of this person or project.
 

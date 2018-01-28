@@ -4,6 +4,7 @@ title: contact
 permalink: /contact_en/
 bold_title: yes
 lang: en
+ref: contact
 ---
 
 <!--img class="col one right" src="/img/prof_pic.jpg"-->
