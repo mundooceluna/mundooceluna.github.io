@@ -14,7 +14,7 @@ Enter your email if you want to be up to date with my work and with the new prod
 <input type="hidden" name="_next" value="http://www.oceluna.com">
 <input type="hidden" name="_subject" value="New Contact Form Submission">
 <input type="text" name="_gotcha" style="display:none">
-<input type="submit" value="Subscribirse">
+<input type="submit" value="Subscribe">
 </form>
 
 <style>

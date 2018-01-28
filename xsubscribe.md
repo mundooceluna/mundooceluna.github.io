@@ -14,7 +14,7 @@ Introduce tu email si quieres seguir mi trabajo y mantenerte al día de los nuev
 <input type="hidden" name="_next" value="http://www.oceluna.com">
 <input type="hidden" name="_subject" value="New Contact Form Submission">
 <input type="text" name="_gotcha" style="display:none">
-<input type="submit" value="Subscre">
+<input type="submit" value="Suscríbete">
 </form>
 
 <style>
