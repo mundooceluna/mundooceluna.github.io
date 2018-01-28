@@ -3,7 +3,11 @@
 <header class="site-header">
   <div class="site-nav-bose">
     <nav class="site-nav">
-      <a class="image-nav" href="{{ site.baseurl }}/">
+	{% if page.lang == 'es' %}
+	<a class="image-nav" href="{{ site.baseurl }}/">
+	  {% else %}
+	<a class="image-nav" href="{{ site.baseurl }}/index_en/">
+	  {% endif %}
 	<img class="image-nav" src="{{ site.baseurl }}/img/cabecera_web_proporcionada.jpg">
       </a>
       <a class "icon_main" href="mailto:info@oceluna.com"><i class="icon_main fa fa-envelope-square" style="font-size: 30px;"></i></a>
@@ -28,7 +32,7 @@
 	{% for p in site.pages %}	
 	{% if p.title == page.title %}
 	{% if p.lang == 'es' %}
-	<a class="icon_main" href="{{p.url}}"><img class="flag" src="{{ site.baseurl }}/img/spanish.jpg" style="margin-left: 10px; width:42px"/></a>
+	<a class="" href="{{p.url}}"><img class="flag" src="{{ site.baseurl }}/img/spanish.jpg" style="margin-left: 10px;"/></a>
 	{% elsif p.lang == 'en' %}
 	<a class="" href="{{p.url}}"><img class="flag" src="{{ site.baseurl }}/img/british.jpg"/></a>
 	{% endif %}
@@ -38,7 +42,7 @@
 	{% if p.ref %}
 	{% if p.ref == page.ref %}
 	{% if p.lang == 'es' %}
-	<a class="icon_main" href="{{p.url}}"><img class="flag" src="{{ site.baseurl }}/img/spanish.jpg" style="margin-left: 10px; width:42px"/></a>
+	<a class="" href="{{p.url}}"><img class="flag" src="{{ site.baseurl }}/img/spanish.jpg" style="margin-left: 10px;"/></a>
 	{% elsif p.lang == 'en' %}
 	<a class="" href="{{p.url}}"><img class="flag" src="{{ site.baseurl }}/img/british.jpg"/></a>
 	{% endif %}
@@ -49,9 +53,9 @@
 	{% if p.ref %}
 	{% if p.ref == page.ref %}
 	{% if p.lang == 'es' %}
-	<a class="icon_main" href="{{p.url}}"><img class="flag" src="{{ site.baseurl }}/img/spanish.jpg" style="margin-left: 10px; width:42px"/></a>
+	<a class="" href="{{p.url}}"><img class="flag" src="{{ site.baseurl }}/img/spanish.jpg" style="margin-left: 10px;"/></a>
 	{% elsif p.lang == 'en' %}
-	<a class="" href="{{p.url}}"><img class="flag" src="{{ site.baseurl }}/img/british.jpg"/></a>
+	<a class="" href="{{p.url}}"><img class="flag" src="{{ site.baseurl }}/img/british.jpg" style=""/></a>
 	{% endif %}
 	{% endif %}
 	{% endif %}

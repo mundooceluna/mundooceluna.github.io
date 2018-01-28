@@ -1,19 +1,12 @@
 ---
 layout: colport
-title: Cómic
-description: Ilustración secuencial formato cómic
+title: Graphic novel
+description: Illustration for graphic novel.
 img: /img/comic/portada.jpg
 lang: en
 ref: 012
 ---
 
-Página doble para un proyecto de cómic colectivo.
+Double-sided page for a colective graphic novel project.
 
-
-<div class="section group">
-        <div class="col span_2_of_12">
-	</div>
-        <div class="col span_8_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/comic/comic.jpg" alt=""/>
-	</div>
-</div>
+{% include 12.html %}

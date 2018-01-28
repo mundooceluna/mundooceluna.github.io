@@ -1,22 +1,12 @@
 ---
 layout: colport
-title: Serigrafía
-description: Ilustración mediante técnica de serigrafía
+title: Serigraphy
+description: Illustrations using serigraphy techniques
 img: /img/serigrafia/portada.jpg
 lang: en
 ref: 017
 ---
 
-Fotos de camisetas y bolso que he creado con mi marca a partir de serigrafía directa.
+Photos of t-shirts and bags that I have created with my own personal brand, using direct serigraphy
 
-<div class="section group">
-        <div class="col span_4_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/serigrafia/camiseta_negra.jpg" alt=""/>
-	</div>
-        <div class="col span_4_of_12">
-          <img class="image_enlarge" src="{{ site.baseurl }}/img/serigrafia/bolso.jpg" alt=""/>
-	</div>
-        <div class="col span_4_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/serigrafia/camiseta_rosa.jpg" alt=""/>
-	</div>
-</div>
+{% include 17.html %}

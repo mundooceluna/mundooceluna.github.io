@@ -1,28 +1,12 @@
 ---
 layout: colport
-title: Proyecto personal App infantil
-description: Proyecto de app infantil
+title: Personal project - Children's App
+description: Project for a children's app
 img: /img/3D_infantil/portada.jpg
 lang: en
 ref: 010
 ---
 
-Diseños inspirados para una posible aplicación digital de aprendizaje infantil, realizada mediante software 3D.
+Designs for a potential digital app about children learning - done using 3D software.
 
-<div class="section group">
-        <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/3D_infantil/proyecto1.jpg" alt=""/>
-	</div>
-        <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/3D_infantil/proyecto2.jpg" alt=""/>
-	</div>
-</div>
-<div class="section group">
-        <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/3D_infantil/pippe.jpg" alt=""/>
-	</div>
-        <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/3D_infantil/proyecto3.jpg" alt=""/>
-	</div>
-</div>
-
+{% include 10.html %}

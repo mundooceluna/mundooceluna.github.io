@@ -1,27 +1,12 @@
 ---
 layout: colport
-title: Editiorial
-description: Series de ilustraciones para el mundo editorial
+title: Publishers
+description: Series of illustration for publishing houses
 img: /img/editorial/portada.jpg
 lang: en
 ref: 008
 ---
 
-Estas son algunas ilustraciones basadas en el campo editorial, uno de mis favoritos.
+These are some illustrations for the publishing houses world, one my favorites topics.
 
-<div class="section group">
-        <div class="col span_6_of_12">
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/editorial/bella_durmiente.jpg" alt=""/>
-	</div>
-	<div class="col span_6_of_12">	
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/editorial/los_pajaros.jpg" alt=""/>
-	</div>
-</div>
-<div class="section group">
-	<div class="col span_3_of_12">
-	</div>
-	<div class="col span_6_of_12">	
-	  <img class="image_enlarge" src="{{ site.baseurl }}/img/editorial/lagrimas_monstruo.jpg" alt=""/>
-	</div>
-</div>
-
+{% include 08.html %}
