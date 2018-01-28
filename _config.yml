@@ -22,6 +22,11 @@ highlighter: rouge
 
 host: 0.0.0.0
 
+plugins:
+  - jekyll-feed
+
+author: Cristina Villar Fernandez
+
 collections:
   portfolio:
     output: true
