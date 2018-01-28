@@ -3,7 +3,7 @@ layout: page
 title: Gracias
 permalink: /gracias/
 lang: es
-ref: subscribe
+ref: thanks
 hidden: yes
 ---
 

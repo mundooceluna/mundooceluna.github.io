@@ -3,7 +3,7 @@ layout: page
 title: Thanks
 permalink: /thanks/
 lang: en
-ref: subscribe
+ref: thanks
 hidden: yes
 ---
 
