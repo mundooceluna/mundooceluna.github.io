@@ -2,7 +2,7 @@
 layout: page
 lang: en
 ref: index
-permalink: /index_en/
+permalink: /en/
 title: portfolio
 ---
 {% include index.html %}

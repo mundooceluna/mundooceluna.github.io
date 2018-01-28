@@ -31,20 +31,20 @@
         {% endfor %}
 	{% for p in site.pages %}	
 	{% if p.title == page.title %}
-	{% if p.lang == 'es' %}
+	{% if p.lang == 'es' and page.lang == 'en' %}
 	<a class="" href="{{p.url}}"><img class="flag" src="{{ site.baseurl }}/img/spanish.jpg" style="margin-left: 10px;"/></a>
-	{% elsif p.lang == 'en' %}
-	<a class="" href="{{p.url}}"><img class="flag" src="{{ site.baseurl }}/img/british.jpg"/></a>
+	{% elsif p.lang == 'en' and page.lang == 'es' %}
+	<a class="" href="{{p.url}}"><img class="flag" src="{{ site.baseurl }}/img/british.jpg" style="margin-left: 10px;"/></a>
 	{% endif %}
 	{% endif %}
 	{% endfor %}
 	{% for p in site.posts %}
 	{% if p.ref %}
 	{% if p.ref == page.ref %}
-	{% if p.lang == 'es' %}
+	{% if p.lang == 'es' and page.lang == 'en' %}
 	<a class="" href="{{p.url}}"><img class="flag" src="{{ site.baseurl }}/img/spanish.jpg" style="margin-left: 10px;"/></a>
-	{% elsif p.lang == 'en' %}
-	<a class="" href="{{p.url}}"><img class="flag" src="{{ site.baseurl }}/img/british.jpg"/></a>
+	{% elsif p.lang == 'en' and page.lang == 'es'%}
+	<a class="" href="{{p.url}}"><img class="flag" src="{{ site.baseurl }}/img/british.jpg" style="margin-left: 10px;"/></a>
 	{% endif %}
 	{% endif %}
 	{% endif %}
@@ -52,10 +52,10 @@
 	{% for p in site.portfolio %}
 	{% if p.ref %}
 	{% if p.ref == page.ref %}
-	{% if p.lang == 'es' %}
+	{% if p.lang == 'es' and page.lang =='en' %}
 	<a class="" href="{{p.url}}"><img class="flag" src="{{ site.baseurl }}/img/spanish.jpg" style="margin-left: 10px;"/></a>
-	{% elsif p.lang == 'en' %}
-	<a class="" href="{{p.url}}"><img class="flag" src="{{ site.baseurl }}/img/british.jpg" style=""/></a>
+	{% elsif p.lang == 'en' and page.lang =='es'  %}
+	<a class="" href="{{p.url}}"><img class="flag" src="{{ site.baseurl }}/img/british.jpg" style="margin-left: 10px;"/></a>
 	{% endif %}
 	{% endif %}
 	{% endif %}
