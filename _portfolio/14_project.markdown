@@ -7,7 +7,7 @@ lang: es
 ref: 014
 ---
 
-Series de linograbados inspirados en Zamora y su semana santa.
+Ejemplos de la tecnica de linograbados
 
 
 {% include 14.html %}

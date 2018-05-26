@@ -7,7 +7,7 @@ lang: en
 ref: 014
 ---
 
-Series of linographs inspired by Zamora and its Holy Week
+Example of engravings
 
 
 {% include 14.html %}
