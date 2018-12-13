@@ -13,4 +13,4 @@ Este sitio está en construcción.
 
 No obstante, puedes contactar y hacer cualquier encargo <a class="page-link" href="{{ site.baseurl }}/contact">pinchando aqui</a>
 
-{% include 02.html %}
+{% include 21.html %}
