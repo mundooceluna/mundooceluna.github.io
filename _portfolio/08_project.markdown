@@ -1,6 +1,6 @@
 ---
 layout: colport
-title: Editiorial
+title: Editorial
 description: Series de ilustraciones para el mundo editorial
 img: /img/editorial/portada.jpg
 lang: es
