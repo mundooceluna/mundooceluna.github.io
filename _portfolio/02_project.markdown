@@ -3,7 +3,7 @@ layout: colport
 title: Album Ilustrado
 color_blue: yes
 description: Un proyecto personal de album ilustrado
-img: /img/tienda/tienda_online.png
+img: /albumilustrado/reducido_01.jpg
 lang: es
 ref: albilus
 ---
