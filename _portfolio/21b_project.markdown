@@ -13,4 +13,4 @@ This site is under construction.
 
 However, you can contact and order by <a class="page-link" href="{{ site.baseurl }}/contact_en">clicking here</a>
 
-{% include 02.html %}
+{% include 21.html %}
