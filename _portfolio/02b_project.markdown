@@ -3,7 +3,7 @@ layout: colport
 title: Picture book
 color_blue: yes
 description: A personal project for a picture book
-img: /img/tienda/tienda_online.png
+img: /albumilustrado/reducido_01.jpg
 lang: en
 ref: albilus
 ---
