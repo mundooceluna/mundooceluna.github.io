@@ -1,5 +1,6 @@
 {% assign index = 1 %}
-{% for project in site.portfolio %}
+{% assign sorted = site.portfolio | sort: 'ref' %}
+{% for project in sorted %}
 {% assign mod = index | modulo: 3 %}
 
 {% if project.lang == page.lang %}

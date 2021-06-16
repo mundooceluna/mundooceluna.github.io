@@ -4,7 +4,7 @@ title: Cómic
 description: Ilustración secuencial formato cómic
 img: /img/comic/portada.jpg
 lang: es
-ref: 012
+ref: 150
 ---
 
 Página doble para un proyecto de cómic colectivo.

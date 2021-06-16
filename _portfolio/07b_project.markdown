@@ -4,7 +4,7 @@ title: Collage
 description: Illustrations using collage technique
 img: /img/collage/portada.jpg
 lang: en
-ref: 007
+ref: 100
 ---
 
 Illustrations using collage techniques.

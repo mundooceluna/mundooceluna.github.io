@@ -4,7 +4,7 @@ title: Serigraphy
 description: Illustrations using serigraphy techniques
 img: /img/serigrafia/portada.jpg
 lang: en
-ref: 017
+ref: 200
 ---
 
 Photos of t-shirts and bags that I have created with my own personal brand, using direct serigraphy

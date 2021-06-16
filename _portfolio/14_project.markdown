@@ -4,10 +4,10 @@ title: Grabado
 description: Grabados realizados con diferentes técnicas 
 img: /img/grabado/portada.jpg
 lang: es
-ref: 014
+ref: 170
 ---
 
-Ejemplos de la tecnica de linograbados
+Muestras de grabados: linograbados, punta seca, etc.
 
 
 {% include 14.html %}

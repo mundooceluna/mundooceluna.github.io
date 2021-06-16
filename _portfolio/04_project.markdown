@@ -4,7 +4,7 @@ title: Personajes
 description: Diseño de algunos personajes infantiles
 img: /img/personajes/portada.jpg
 lang: es
-ref: 004
+ref: 070
 ---
 
 Diseño de algunos personajes infantiles
