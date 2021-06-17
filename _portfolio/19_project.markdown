@@ -4,7 +4,7 @@ title: Ilustraciones a partir de referencia
 description: 
 img: /img/referencia/portada.jpg
 lang: es
-ref: 220
+ref: '220'
 ---
 
 Ilustraciones creadas a partir de una imagen de referencia
