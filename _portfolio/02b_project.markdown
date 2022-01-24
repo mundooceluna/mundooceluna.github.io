@@ -8,6 +8,8 @@ lang: en
 ref: '020'
 ---
 
-One of my personal projects - a picture book.
+Images from the picture book: ¿A dónde se fue el tiempo? (Where did the time went?)
+
+Also images from other personal projects
 
 {% include 02.html %}
