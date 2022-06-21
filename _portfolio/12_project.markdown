@@ -1,12 +1,12 @@
 ---
 layout: colport
-title: Cómic
+title: Cómic y Médicina gráfica
 description: Ilustración secuencial formato cómic
 img: /img/comic/portada.jpg
 lang: es
 ref: '150'
 ---
 
-Página doble para un proyecto de cómic colectivo.
+Ejemplos de ejercicios de comics, la mayoria relacionados con médicina gráfica
 
 {% include 12.html %}

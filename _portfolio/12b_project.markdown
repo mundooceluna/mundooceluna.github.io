@@ -1,6 +1,6 @@
 ---
 layout: colport
-title: Graphic novel
+title: Graphic novel and and medicine
 description: Illustration for graphic novel.
 img: /img/comic/portada.jpg
 lang: en
