@@ -2,9 +2,9 @@
 layout: colport
 title: Graphic novel and and medicine
 description: Illustration for graphic novel.
-img: /img/comic/portada.jpg
+img: /img/comic/med8.jpg
 lang: en
-ref: '150'
+ref: '120'
 ---
 
 Double-sided page for a colective graphic novel project.

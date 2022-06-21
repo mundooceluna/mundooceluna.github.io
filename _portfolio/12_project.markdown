@@ -2,9 +2,9 @@
 layout: colport
 title: Cómic y Médicina gráfica
 description: Ilustración secuencial formato cómic
-img: /img/comic/portada.jpg
+img: /img/comic/med8.jpg
 lang: es
-ref: '150'
+ref: '120'
 ---
 
 Ejemplos de ejercicios de comics, la mayoria relacionados con médicina gráfica
