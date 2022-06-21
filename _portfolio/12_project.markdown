@@ -2,7 +2,7 @@
 layout: colport
 title: Cómic y Médicina gráfica
 description: Ilustración secuencial formato cómic
-img: /img/comic/med8.jpeg
+img: /img/comic/portada.jpg
 lang: es
 ref: '120'
 ---
