@@ -2,7 +2,7 @@
 layout: colport
 title: Graphic novel and and medicine
 description: Illustration for graphic novel.
-img: /img/comic/med8.jpg
+img: /img/comic/med8.jpeg
 lang: en
 ref: '120'
 ---
